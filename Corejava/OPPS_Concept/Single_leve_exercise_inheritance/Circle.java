@@ -2,7 +2,7 @@ package Single_leve_exercise_inheritance;
 
  import Set_Get_Method.Shape;
 
-public class Circle extends Shape {
+public class Circle extends Rectangle {
        
 	public static final double PI = 3.14;
 	int radius;

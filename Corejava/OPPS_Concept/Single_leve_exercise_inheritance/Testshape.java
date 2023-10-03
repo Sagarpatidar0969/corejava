@@ -17,6 +17,7 @@ public class Testshape {
 		Circle c = new Circle();
 		c.setRedius(10);
 		c.Cirarea();
+		
 	}
 
 }

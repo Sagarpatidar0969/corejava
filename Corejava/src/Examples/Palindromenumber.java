@@ -2,7 +2,7 @@ package Examples;
 
 public class Palindromenumber {
 	public static void main(String[] args) {
-		int a = 171;
+		int a = 171 ;
 		int b = a;
 		int c = 0; 
 		int d;

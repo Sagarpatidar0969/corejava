@@ -24,7 +24,7 @@ public class Rectangle extends Shape {
 	
 	
 	public void Rarea() {
-		int Rarea =  getLength() * getWidth();
+		int Rarea1 =  getLength()*getWidth();
 		
 		System.out.println("Rectangle area=" + Rarea);
 				
