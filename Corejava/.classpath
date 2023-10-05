@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="OPPS_Concept"/>
+	<classpathentry kind="src" path="exceptionHandling"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
