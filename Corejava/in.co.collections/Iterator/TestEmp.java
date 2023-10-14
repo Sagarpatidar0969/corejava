@@ -8,8 +8,9 @@ public class TestEmp {
 		
 		Employee e1 = new Employee(1, "sr", "rj");
 		Employee e2 = new Employee(2, "patel", "jhalawar");
+		//List<Employee>l=new ArrayList<>();
 		
-		List a1 = new ArrayList();
+		List<Employee> a1 = new ArrayList();
 //		ArrayList a1 = new ArrayList();
 		a1.add(e1);
 		a1.add(e2);
@@ -37,9 +38,10 @@ public class TestEmp {
 				System.out.println(e5);
 			}
 			
-			Iterator it = a1.iterator();
+			Iterator<Employee> it = a1.iterator();
 			while(it.hasNext()) {
-				Employee e6 = (Employee) it.next();
+				Employee e6 = it.next();
+				a1.add(e6);
 				System.out.println(e6);
 			}
 		

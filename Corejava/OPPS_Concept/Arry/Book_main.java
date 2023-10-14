@@ -6,8 +6,8 @@ public class Book_main {
 	public static void main(String[] args) {
 		int bookId;
 		String bookName;
-		String authorName = null;
-		int price =0 ;
+	   String authorName;
+	   int price;  
 		Scanner sc = new Scanner(System.in);
 		Book b[] = new Book[10];
 		
@@ -104,7 +104,7 @@ public class Book_main {
 				System.out.println("enter the book id bt search book");
 				bookId = sc.nextInt();
 				
-				System.out.println(bookId+"\t"+authorName+"\t"+price);
+				System.out.println("bookId"+"\t"+"authorName"+"\t"+"price");
 				
 				for ( i = 0; i < b.length; i++) {
 					if(b[i] != null && b[i].getBookId()==bookId) {

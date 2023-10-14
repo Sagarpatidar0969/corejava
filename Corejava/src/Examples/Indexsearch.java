@@ -32,7 +32,7 @@ public class Indexsearch {
 		int num [] = new int [size];
 		
 		for (int i = 0; i < num.length; i++) {
-			int num[i] = sc.nextInt();
+			//int num[i] = sc.nextInt();
 		}
 		
 		
