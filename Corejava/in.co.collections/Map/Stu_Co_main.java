@@ -39,4 +39,3 @@ public class Stu_Co_main {
 	}
 
 }
-l
